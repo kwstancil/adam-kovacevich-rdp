@@ -1,0 +1,14 @@
+# Credentials / session data — never commit
+twitter_auth_state.json
+*.jsonl
+
+# Scratch / private scripts
+fetch_*.py
+login*.py
+playwright_search.py
+
+# Debug artifacts
+debug_*.py
+step*.png
+*_fail.png
+*_dump.png
